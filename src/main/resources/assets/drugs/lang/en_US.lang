@@ -2,3 +2,4 @@ tile.block_cocaine.name=Block of Cocaine
 itemGroup.myMod=Drugs!
 item.kiloCocaine.name=Kilo of Cocaine
 tile.block_partial.name=Partial Block
+tile.drug_chest.name=Drug Chest

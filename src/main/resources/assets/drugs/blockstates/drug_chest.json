@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal":{ "model": "drugs:drug_chest_model" }
+    }
+}

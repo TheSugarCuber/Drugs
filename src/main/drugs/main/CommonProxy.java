@@ -1,8 +1,10 @@
 package main;
 
+import GUI.GUIHandler;
 import blocks.StartupCommon;
 import items.Tabs;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 
 public abstract class CommonProxy {
 
@@ -16,6 +18,7 @@ public abstract class CommonProxy {
 	{
 		blocks.StartupCommon.preInitCommon();
 		items.StartupCommon.preInitCommon();
+		NetworkRegistry.INSTANCE.registerGuiHandler(DrugsMod.instance, new GUIHandler());
 
 	}
 	
