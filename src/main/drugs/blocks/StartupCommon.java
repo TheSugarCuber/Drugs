@@ -6,6 +6,7 @@ public class StartupCommon {
 
 	public static BlockCocaine blockCocaine;
 	public static BlockPartial blockPartial;
+	public static DrugChest drugChest;
 	
 	public static void preInitCommon()
 	{
@@ -15,6 +16,10 @@ public class StartupCommon {
 		// partial block
 		blockPartial = (BlockPartial)(new BlockPartial().setUnlocalizedName("block_partial"));
 	    GameRegistry.registerBlock(blockPartial, "block_partial");
+	    
+	    drugChest = (DrugChest)(new DrugChest().setUnlocalizedName("drug_chest"));
+	    GameRegistry.registerBlock(drugChest, "drug_chest");
+	    
 	}
 	
 }

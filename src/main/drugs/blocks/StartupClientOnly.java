@@ -21,6 +21,10 @@ public class StartupClientOnly {
 	    final int DEFAULT_ITEM_SUBTYPE = 0;
 	    ModelLoader.setCustomModelResourceLocation(itemBlockPartial, DEFAULT_ITEM_SUBTYPE, itemModelResourceLocation2);
 		
+	    Item drugChest = GameRegistry.findItem("drugs", "drug_chest");
+	    ModelResourceLocation drugChestModel = new ModelResourceLocation("drugs:block_partial", "inventory");
+	    ModelLoader.setCustomModelResourceLocation(drugChest, DEFAULT_ITEM_SUBTYPE, drugChestModel);
+	    
 	}
 	
 	public static void initClientOnly()

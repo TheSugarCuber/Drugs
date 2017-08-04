@@ -10,14 +10,18 @@ public class StartupClientOnly {
 	    // required in order for the renderer to know how to render your item.\
 		
 		// kiloCocaine
-	    ModelResourceLocation itemModelResourceLocation1 = new ModelResourceLocation("drugs:kiloCocaine", "inventory");
+	    ModelResourceLocation kiloCocaineModel = new ModelResourceLocation("drugs:kiloCocaine", "inventory");
 	    final int DEFAULT_ITEM_SUBTYPE = 0;
-	    ModelLoader.setCustomModelResourceLocation(items.StartupCommon.kiloCocaine, DEFAULT_ITEM_SUBTYPE, itemModelResourceLocation1);
+	    ModelLoader.setCustomModelResourceLocation(items.StartupCommon.kiloCocaine, DEFAULT_ITEM_SUBTYPE, kiloCocaineModel);
 	    
 	    // PlasticBagSmall
-	    ModelResourceLocation itemModelResourceLocation2 = new ModelResourceLocation("drugs:plasticBagSmall", "inventory");
-	    ModelLoader.setCustomModelResourceLocation(items.StartupCommon.plasticBagSmall, DEFAULT_ITEM_SUBTYPE, itemModelResourceLocation2);
+	    ModelResourceLocation plasticBagSmallModel = new ModelResourceLocation("drugs:plasticBagSmall", "inventory");
+	    ModelLoader.setCustomModelResourceLocation(items.StartupCommon.plasticBagSmall, DEFAULT_ITEM_SUBTYPE, plasticBagSmallModel);
 	    
+	    //plastic bag small cocaine
+	    ModelResourceLocation plasticBagSmallCocaineModel = new ModelResourceLocation("drugs:plasticBagSmallCocaine", "inventory");
+	    ModelLoader.setCustomModelResourceLocation(items.StartupCommon.plasticBagSmallCocaine, DEFAULT_ITEM_SUBTYPE, plasticBagSmallCocaineModel);
+	   
 	  }
 
 	  public static void initClientOnly()

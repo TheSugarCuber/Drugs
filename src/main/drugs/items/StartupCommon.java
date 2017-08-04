@@ -5,6 +5,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class StartupCommon {
 	  public static KiloCocaine kiloCocaine;  // this holds the unique instance of your block
 	  public static PlasticBagSmall plasticBagSmall;
+	  public static PlasticBagSmallCocaine plasticBagSmallCocaine;
 
 	  public static void preInitCommon()
 	  {
@@ -16,6 +17,9 @@ public class StartupCommon {
 		  //plasticBagSmall
 		  plasticBagSmall = (PlasticBagSmall)(new PlasticBagSmall().setUnlocalizedName("plasticBagSmall"));
 		  GameRegistry.registerItem(plasticBagSmall, "plasticBagSmall");
+		  
+		  plasticBagSmallCocaine = (PlasticBagSmallCocaine)(new PlasticBagSmallCocaine().setUnlocalizedName("plasticBagSmallCocaine"));
+		  GameRegistry.registerItem(plasticBagSmallCocaine, "plasticBagSmallCocaine");
 	  }
 
 	  public static void initCommon()
