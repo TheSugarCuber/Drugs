@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal":{ "model": "drugs:block_cocaine_model" }
+    }
+}
