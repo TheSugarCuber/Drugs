@@ -1,4 +1,4 @@
-package TileEntities;
+package tileEntities;
 
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.inventory.Container;

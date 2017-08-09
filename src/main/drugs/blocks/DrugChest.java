@@ -42,7 +42,7 @@ public class DrugChest extends BlockContainer {
 	@Override
 	public TileEntity createNewTileEntity(World worldIn, int meta)
 	{
-		return new TileEntities.ModTileEntity();
+		return new tileEntities.ModTileEntity();
 	}
 	
 	@Override

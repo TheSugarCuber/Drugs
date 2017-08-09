@@ -1,4 +1,4 @@
-package TileEntities;
+package tileEntities;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.EntityLivingBase;
